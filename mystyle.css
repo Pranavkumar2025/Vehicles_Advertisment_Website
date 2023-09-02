@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&family=Noto+Serif+Telugu:wght@200;400&family=Poppins:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline-offset: 2px;
+    scroll-behavior: smooth;
+}
+
+.flex {
+    display: flex;
+}
+
+
+
+/* -------------------MY CSS-------------------- */
+header{
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.head {
+    padding: 18px;
+    gap: 20px;
+    justify-content: center;
+    width: 100vw;
+    background: linear-gradient(to top left, rgb(67, 67, 119), rgb(30, 30, 30));
+    color: white;
+    
+    /* width: 100vw;
+    background: linear-gradient(to top left, rgb(67, 67, 119), rgb(30, 30, 30));
+    height: 55px;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    gap: 25px;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 999; */
+}
+.container-0{
+  position: sticky;
+  top: 50px;
+  z-index: 999;
+}
+
+.header-container {
+    justify-content: space-between;
+    width: 100%;
+    color:rgb(183, 132, 232);
+    /* border: 3px solid green; */
+    align-items: center;
+    padding-left: 35px;
+    padding-right: 35px;
+    z-index: 12;
+    position: absolute;
+}
+
+.img-sec img {
+    width: 150px;
+    height: 75px;
+}
+
+.header-item ul li {
+    padding: 15px;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    opacity: 5;
+}
+
+.header-info i {
+    padding: 5px;
+    /* color: white; */
+    color: black;
+    font-size: large;
+}
+/* .container-1{
+    position: sticky;
+  top: 50px;
+  z-index: 999;
+} */
+.first-container {
+    /* border: 4px solid red; */
+    width: 100vw;
+    height: 92vh;
+    /* position: absolute; */
+    justify-content: center;
+}
+.video{
+    position:absolute;
+}
+.video video {
+    width: 100vw;
+    object-fit: cover;
+    height: 92vh;
+    z-index: -1;
+}
+
+.container-head {
+    position: absolute;
+    /* top: 85px; */
+    top: 145px;
+    /* border: 4px solid brown; */
+    flex-direction: column;
+    height: 70vh;
+    width: 50vw;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-box h1 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.7rem;
+    color: white;
+}
+
+.container-box h4 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: white;
+}
+
+.head-btn button {
+    padding: 10px;
+    width: 250px;
+    background: transparent;
+    border: 3px solid white;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    transition: all 2s ease;
+}
+
+.head-btn button:hover {
+    background-color: white;
+    color: black;
+    /* border: 3px solid black; */
+}
+
+/* Container-2 Section */
+.container-2::before{
+    background: url('asset\ 15.avif') no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    /* top:0; */
+    left: 0;
+    width: 101%;
+    height: 100%;
+    z-index: -1;
+    /* opacity: 0.3; */
+}
+.header-container-2 {
+    justify-content: space-between;
+    width: 100%;
+    color: black;
+    /* border: 3px solid green; */
+    align-items: center;
+    padding-left: 35px;
+    padding-right: 35px;
+    z-index: 12;
+    position: absolute;
+}
+
+.container-box-a h1 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.7rem;
+    color: black;
+}
+
+.container-box-a h4 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: black;
+}
+
+.fx2-container {
+    margin-top: 80px;
+}
+
+.container-head-a {
+    /* position: absolute;
+    top:85px; */
+    /* position: relative; */
+    /* border: 4px solid brown; */
+    flex-direction: column;
+    height: 87vh;
+    width: 99vw;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.head-btn-a button {
+    padding: 10px;
+    width: 250px;
+    background: transparent;
+    border: 3px solid black;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    /* margin-bottom: 20px; */
+    transition: all 2s ease;
+}
+
+.head-btn-a {
+    margin-bottom: 100px;
+    align-items: center;
+    gap: 29px;
+}
+
+.head-btn-a button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    /* border: 3px solid black; */
+}
+
+/* Container 3 section */
+
+.container-3::before{
+    background: url('asset\ 16.jpeg') no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    /* top:0; */
+    left: 0;
+    width: 101%;
+    height: 100%;
+    z-index: -1;
+    /* opacity: 0.3; */
+}
+
+/* container-4 Section */
+.container-4::before{
+    background: url('asset\ 17.avif') no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    /* top:0; */
+    left: 0;
+    width: 101%;
+    height: 100%;
+    z-index: -1;
+    /* opacity: 0.3; */
+}
+
+/* container 5 section */
+.container-5::before{
+    background: url('asset\ 18.jpeg') no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    /* top:0; */
+    left: 0;
+    width: 101%;
+    height: 100%;
+    z-index: -1;
+    /* opacity: 0.3; */
+}
+
+/* Container 6 section  */
+.container-6::before{
+    background: url('asset\ 19.jpeg') no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    /* top:0; */
+    left: 0;
+    width: 101%;
+    height: 100%;
+    z-index: -1;
+    /* opacity: 0.3; */
+}
+
+
+/* container 7 Section */
+.container-7::before{
+    background: url('asset\ 20.jpeg') no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    /* top:0; */
+    left: 0;
+    width: 101%;
+    height: 100%;
+    z-index: -1;
+    /* opacity: 0.3; */
+}
+
+
+/* Container 8 Section  */
+.container-8::before{
+    background: url('asset\ 21.avif') no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    /* top:0; */
+    left: 0;
+    width: 101%;
+    height: 100%;
+    z-index: -1;
+    /* opacity: 0.3; */
+}
+.container-9::before{
+    background: url('asset\ 22.avif') no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    /* top:0; */
+    left: 0;
+    width: 101%;
+    height: 108%;
+    z-index: -1;
+    /* opacity: 0.3; */
+}
+.container-9{
+    position: relative;
+}
+
+/* Footer Section of the website */
+
+.footer-section ul li{
+    padding: 10px;
+    list-style: none;
+    color: white;
+}
+.footer-section ul{
+    justify-content: center;
+    background: transparent;
+    
+}
+
+/* Css of All Hover Section of header section */
+
+.vehicles{
+    display: none;
+    /* display: block; */
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    transition: all .3s ease-in-out;
+}
+.vehicles img{
+    width: 200px;
+}
+.vehicles h2{
+    text-align: center;
+}
+
+#vehicle-5{
+    gap: 40px;
+}
