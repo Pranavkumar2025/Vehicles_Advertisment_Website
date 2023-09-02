@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&family=Noto+Serif+Telugu:wght@200;400&family=Poppins:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline-offset: 2px;
+    scroll-behavior: smooth;
+}
+
+
+:root{
+    --primary-text-color: #183b56;
+    --secondary-text-color: #577592;
+    --accent-color: #2294ed;
+    --accent-color-dark: #1d69a3;
+    --padding-inline-section:20px;
+}
+/* body{
+    font-family: 'Poppins', sans-serif;
+    color: var(--primary-text-color);
+    display: flex; 
+    justify-content: center;
+    background: #000;
+} */
+
+    
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.5rem ;
+}
+h4{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p{
+    font-family: 'Roboto',sans-serif;
+    font-size: 1.25rem;
+    color: var(--secondary-text-color);
+    line-height: 1.8rem;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+nav{
+    background-color: #f3faff;
+    box-shadow: 0 0 4px #bbd0e2;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    left: 0;
+    right: 0;
+} 
+main{
+    padding-block: 20px;
+    margin-top: 80px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+/* MY ways of CSS  */
+.mini-header{
+    width: 100vw;
+    background: linear-gradient(to top left, rgb(67, 67, 119), rgb(30, 30, 30));
+    height: 55px;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    gap: 25px;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+h4 ul{
+    text-decoration: underline;
+}
+h4 ul:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.u-nav{
+    /* justify-content: space-between; */
+    gap: 180px;
+}
+.tesla-img{
+    margin-left: 50px;
+}
+.tesla-img img{
+    width: 140px;
+}
+.main-header-mid ul li{
+    padding: 10px;
+    list-style: none;
+    font-size: 1.1rem;
+    font-family: 'Roboto',sans-serif;
+}
+.main-header-right ul li{
+    padding: 15px;
+    list-style: none;
+    font-size: 1.1rem;
+    font-family: 'Roboto',sans-serif;
+}
+.main-header-right{
+    margin-right: 50px;
+}
+
+/* First Section portion -------*/
+
+.m-first-section
+{
+    flex-direction: column;
+    gap: 50vh;
+}
+.first-section{
+    color: white;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    /* margin-top: 10px; */
+    /* gap: 70px; */
+    position: relative;
+}
+.btn button{
+    color: white ;
+    width: 250px;
+    font-family: 'Roboto',sans-serif;
+    padding: 7px;
+    border: 3px solid rgb(252, 246, 246);
+    background: transparent;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: all 1s ease-in-out;
+}
+.btn button:hover{
+    background-color: white;
+    color: black;
+}
+/* .first-section::before{
+    background: url("https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto/Homepage-Demo-Drive-Desktop-NA.mp4") no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.3;
+} */
+
+#myVideo {
+    position: absolute;
+    right: 0;
+    /* bottom: 0; */
+    z-index: -1;
+
+  }
+video{
+    width: 100vw;
+    object-fit: cover;
+    height: 100vh;
+}
+.second-section{
+    margin-top: 100px;
+    border: 3px solid blueviolet;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    /* gap: 50vh; */
+}
+.second-section-title{
+    flex-direction: column;
+}
+.u-nav{
+    /* justify-content: space-between; */
+    gap: 180px;
+}
+.tesla-img{
+    margin-left: 50px;
+}
+.tesla-img img{
+    width: 140px;
+}
+.--main-header-mid ul li{
+    padding: 10px;
+    list-style: none;
+    font-size: 1.1rem;
+    font-family: 'Roboto',sans-serif;
+}
+.--main-header-right ul li{
+    padding: 15px;
+    list-style: none;
+    font-size: 1.1rem;
+    font-family: 'Roboto',sans-serif;
+}
+.--main-header-right{
+    margin-right: 50px;
+}
